@@ -1,0 +1,93 @@
+:root {
+  --bg: linear-gradient(45deg, #a51921, #ef8c29, #10529c, #f6e6b5, #a51921);
+  --text:(#f6eccf);
+  --btn: radial-gradient(
+  circle at center,
+  #a51921,
+  #ef8c29,
+  #10529c,
+  #f6e6b5,
+  #a51921
+);
+}
+
+body {
+  overflow: inherit;
+
+  width: 100%;
+
+  background: linear-gradient(
+    45deg,
+    #a51921,
+    #ef8c29,
+    #10529c,
+    #f6e6b5,
+    #a51921
+  );
+
+  animation: gradientAnimation 0.3s ease infinite;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: rgb(234, 252, 133);
+}
+
+.container {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 1280px) {
+  .container {
+    width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 640px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 475px;
+  }
+  
+}
+@media (max-width: 475px) {
+  .container {
+    width: 380px;
+  }
+}

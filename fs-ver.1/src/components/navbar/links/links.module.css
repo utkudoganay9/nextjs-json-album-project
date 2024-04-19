@@ -1,0 +1,55 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.logout {
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px 0 10px 0;
+  background-color: coral;
+  font-size: medium;
+}
+
+
+.mobileLinks,.menuButton {
+  display: none;
+ 
+}
+
+@media (max-width: 768px) {
+
+    .links{
+        display: none;
+    }
+    .mobileLinks {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        flex-direction: column;
+        top: 100px;
+        position: absolute;
+        align-items: center;
+        right: 0;
+        height: calc(100vh - 100px);
+        overflow: hidden;
+        gap: 10px;
+        transition: height 0.5s ease-in-out;
+        background-color: salmon;
+        
+      }
+      .menuButton{
+        display: block;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        
+        
+    
+    }
+    
+
+
+}

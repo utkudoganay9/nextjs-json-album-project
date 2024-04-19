@@ -1,0 +1,81 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/about/about.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.about_container__Ucmgi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.about_textContainer__N2kg2 {
+  flex-direction: column;
+  gap: 80px;
+  display: flex;
+  
+}
+.about_text__rBosx {
+  font-size: 100px;
+  font-weight: 300;
+}
+.about_desc__gAGSd {
+align-items: center;  
+justify-content: center;
+  width: 800px;
+}
+.about_imgContainer__v1CmT {
+   position: relative;
+  border-radius: 10px;  
+  width: 70vh;
+  height: 60vh;
+}
+
+
+
+@media (max-width: 1366px) {
+  .about_container__Ucmgi,.about_textContainer__N2kg2 {
+    width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .about_container__Ucmgi,.about_textContainer__N2kg2 {
+    width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about_container__Ucmgi,.about_textContainer__N2kg2{
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_container__Ucmgi,.about_textContainer__N2kg2 {
+    width: 640px;
+  }
+  .about_imgContainer__v1CmT {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .about_container__Ucmgi {
+    width: 475px;
+  }
+  .about_imgContainer__v1CmT{
+    display: none;
+  }
+
+}
+@media (max-width: 475px) {
+  .about_container__Ucmgi {
+    width: 380px;
+  }
+  .about_imgContainer__v1CmT{
+    display: none;
+  }
+
+}
+

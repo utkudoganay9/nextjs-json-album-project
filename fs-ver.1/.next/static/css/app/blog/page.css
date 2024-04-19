@@ -1,0 +1,63 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/postCard/postCard.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.postCard_container__yIWzy {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.postCard_cardContainer__LU2Kb {
+  display: flex;
+}
+.postCard_imgContainer__KGEEZ {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.postCard_img__TTypP {
+  object-fit: cover;}
+
+.postCard_titleContainer__JPVtC{
+   
+    gap: 30px;
+    
+  
+}
+.postCard_title__95FgI {
+  font-size: xx-large;
+  font-weight: 300;
+}
+.postCard_desc__jqCqC {
+  font-size: small;
+  font-weight: 300;
+  display: flex;
+}
+.postCard_link__xorsS {
+  margin: auto;
+}
+.postCard_date__pzBxf {
+  transform: rotate(270deg);
+  margin-left: 120px;
+  
+}
+
+
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/blog/blog.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.blog_container__2_z7z {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.blog_cardContainer__P611U {
+  width:  30%;
+  flex: 1 1;
+  margin-left: 20px;
+}
+
+

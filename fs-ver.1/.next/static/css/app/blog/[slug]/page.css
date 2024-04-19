@@ -1,0 +1,69 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/postUser/postUser.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.postUser_container__dKtv0 {
+  display: flex;
+
+  justify-items: center;
+}
+.postUser_imgContainer__F_wu4 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+ 
+}
+.postUser_img__Op1ai {
+  object-fit: contain;
+}
+.postUser_userContainer__zeuCM {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 40%;
+  margin-left: 20px;
+  
+}
+.postUser_avatar__1kiLn {
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.postUser_user__JrwTR {
+  font-size: larger;
+  margin-top: 20px;
+  height: min-content;
+}
+
+  
+.postUser_desc__wZ240 {
+  border: 4px outset  salmon;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/blog/[slug]/singlepostpage.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.singlepostpage_container__PLdeL {
+  display: flex;
+  align-items: center;
+}
+.singlepostpage_postContainer__JOWLz {
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+.singlepostpage_date__1RhWD{
+    
+}
+
+.singlepostpage_desc__JBiBf {
+  border: 4px outset gray;
+  border-radius: 10px 0 10px 0;
+  padding: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+ 
+}
+

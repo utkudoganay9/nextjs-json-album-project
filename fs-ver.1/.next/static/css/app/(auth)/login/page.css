@@ -1,0 +1,129 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/(auth)/login/login.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.login_container__6x_TJ{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(circle, #ea9475, #d2ff4b,#75ea94,#8463f0);
+    border: 4px dotted black;
+    height: 70vh;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.login_imgContainer__skHVS{
+    border-radius: 20px;
+    position: relative;
+    width: 60vh;
+    height: 60vh;
+    
+   
+}
+.login_img__jqixz{
+    border-radius: 20px;
+   
+    
+   
+}
+
+.login_login__Bmoym{
+    
+}
+
+@media (max-width: 1366px) {
+    .login_container__6x_TJ,.login_textContainer___I52A {
+      width: 1280px;
+    }
+  }
+  
+  @media (max-width: 1280px) {
+    .login_container__6x_TJ,.login_textContainer___I52A {
+      width: 1024px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .login_container__6x_TJ,.login_textContainer___I52A{
+      width: 768px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .login_container__6x_TJ,.login_textContainer___I52A {
+      width: 640px;
+    }
+    .login_imgContainer__skHVS {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .login_container__6x_TJ {
+      width: 475px;
+    }
+    .login_imgContainer__skHVS{
+      display: none;
+    }
+  
+  }
+  @media (max-width: 475px) {
+    .login_container__6x_TJ {
+      width: 380px;
+    }
+    .login_imgContainer__skHVS{
+      display: none;
+    }
+  
+  }
+  
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/login/loginForm.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.loginForm_container__Rx_KU{
+display: flex;
+justify-content: center;
+align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    
+    width: 80vh;
+    
+}
+.loginForm_title__w1I7G{
+    font-size: 300;
+    font-weight: bold;
+    
+}
+.loginForm_form__UWA2t{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.loginForm_form__UWA2t input{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+.loginForm_loginContainer__nYtCI{
+    border: 4px solid red;
+}
+.loginForm_button__eP2gp {
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.loginForm_button__eP2gp:hover {
+    background: radial-gradient(circle, #ea9475, #d2ff4b,#75ea94,#8463f0);
+}
+

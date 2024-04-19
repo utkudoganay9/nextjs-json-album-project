@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.postContainer {
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+.date{
+    
+}
+
+.desc {
+  border: 4px outset gray;
+  border-radius: 10px 0 10px 0;
+  padding: 8px;
+  width: fit-content;
+ 
+}
